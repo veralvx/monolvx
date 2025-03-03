@@ -1,4 +1,4 @@
-# Monocroix
+# Monolvx
 
 Monochromatic theme for VSCode/Codium.
 
