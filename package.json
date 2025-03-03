@@ -1,0 +1,49 @@
+{
+  "name": "monolvx",
+  "displayName": "monolvx",
+  "publisher": "veralvx",
+  "description": "Monochromatic color theme",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.8.0"
+  },
+  "keywords": [
+      "Color Theme",
+      "color-theme",
+      "Theme",
+      "Dark",
+      "Light",
+      "Monochrome",
+      "Monochromatic",
+      "Minimal",
+      "Minimalistic",
+      "Minimal-color"
+  ],
+  "homepage": "https://github.com/veralvx/monolvx",
+  "repository": {
+    "url": "https://github.com/veralvx/monolvx.git",
+    "type": "git"
+},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+
+      {
+        "label": "Monolvx Light",
+        "uiTheme": "vs",
+        "path": "./themes/monolvx-light.json"
+      },
+      
+      {
+        "label": "Monolvx Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monolvx-dark.json"
+      }
+
+   ]
+  }
+}
